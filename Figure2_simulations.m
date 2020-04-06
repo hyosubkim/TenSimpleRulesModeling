@@ -103,7 +103,7 @@ set(gca, 'xtick', [0 1], 'tickdir', 'out', 'fontsize', 18, 'xlim', [-0.1 1.1])
 alphas = [0.02:0.02:1];
 betas = [1 2 5 10 20];
 
-for n = 1:1000
+for n = 1:10
     n
     for i = 1:length(alphas)
         for j = 1:length(betas)
